@@ -3,4 +3,4 @@ Downloads a youtube video directly onto your computer when you feed it a link th
 Required Libraries
 Discord.py
 pytube
-To prepare it simply paste your bot token into the TOKEN = ''
+To prepare it simply paste your bot token where it says BOT TOKEN HERE and paste your user ID where it says USER ID HERE
