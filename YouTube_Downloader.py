@@ -5,7 +5,7 @@ from discord.ext import commands
 
 
 
-TOKEN = ""
+TOKEN = "BOT TOKEN HERE"
 
 
 
@@ -19,7 +19,7 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-	if message.content.startswith('!download') and message.author.id == '268138118270418954':
+	if message.content.startswith('!download') and message.author.id == 'USER ID HERE':
 		await bot.send_message(message.channel, 'Received')
 		yt = YouTube(message.content.replace('!download ', '', 1))
 		stream = yt.streams.first()
